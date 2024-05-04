@@ -1,6 +1,9 @@
 def pangkat(base, pangkat):
     # your code here
-    return 'error response'
+    x = base
+    n = pangkat
+    pangkat = x**n
+    return pangkat
 
 
 if __name__ == '__main__':
